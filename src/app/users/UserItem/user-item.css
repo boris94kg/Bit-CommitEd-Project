@@ -1,18 +1,25 @@
 .user-item {
-    
-    min-height: 520px;
+  min-height: 520px;
 }
 
 .user-item .card-item a {
-    display: block;
+  display: block;
+}
+.user-item .card {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.spacing {
+  margin: 1rem auto;
 }
 
 .user-item.card .card-content {
-    padding: 24px 24px 20px 24px;
-} 
+  padding: 24px 24px 20px 24px;
+}
 
 @media only screen and (max-width: 1300px) {
-    .user-item {
-        min-height: 409px;
-    } 
+  .user-item {
+    min-height: 409px;
+  }
 }
